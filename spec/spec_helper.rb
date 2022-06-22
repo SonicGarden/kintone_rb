@@ -1,4 +1,4 @@
 require 'rubygems'
-require 'kintone'
+require 'kintone_rb'
 require 'webmock/rspec'
 require 'rspec-parameterized'

@@ -1,23 +1,31 @@
-# kintone
+# kintone_rb
 
 A Ruby gem for communicating with the [kintone](https://kintone.cybozu.com/us/) REST API
 
+forked from [jue58/kintone](https://github.com/jue58/kintone)
+
 ## Requirements
 
-- ruby 2.1.0 or later
+- ruby 2.7.0 or later
 
 ## Installation
 
-    gem install kintone
+Add this line to your application's Gemfile:
 
-or execute `bundle install` command after you insert the following into Gemfile
+```ruby
+gem 'kintone_rb', github: 'SonicGarden/kintone_rb'
+```
 
-    gem 'kintone'
+And then execute:
+
+```
+$ bundle
+```
 
 ## Usage
 
 ```ruby
-require 'kintone'
+require 'kintone_rb'
 
 # Use password authentication
 api = Kintone::Api.new("example.cybozu.com", "Administrator", "cybozu")

@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'kintone/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'kintone'
+  spec.name          = 'kintone_rb'
   spec.version       = Kintone::VERSION
-  spec.authors       = ['Rikiya Kawakami']
-  spec.email         = ['ricky.k.yang@gmail.com']
+  spec.authors       = ['aki77']
+  spec.email         = ['akira@sonicgarden.jp']
   spec.summary       = 'kintone API client for Ruby.'
   spec.description   = 'kintone API client for Ruby.'
-  spec.homepage      = 'https://github.com/jue58/kintone'
+  spec.homepage      = 'https://github.com/SonicGarden/kintone_rb'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
