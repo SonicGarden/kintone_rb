@@ -13,7 +13,7 @@ forked from [jue58/kintone](https://github.com/jue58/kintone)
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'kintone_rb', github: 'SonicGarden/kintone_rb'
+gem 'kintone_rb'
 ```
 
 And then execute:
