@@ -110,7 +110,7 @@ end
 
 operator symbol | query helper
 --- | ---
-= | field(:code) == other
+== | field(:code) == other
 != | field(:code) != other
 &gt; | field(:code) > other
 < | field(:code) < other
