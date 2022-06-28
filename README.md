@@ -110,7 +110,7 @@ end
 
 operator symbol | query helper
 --- | ---
-= | field(:code) == other
+== | field(:code) == other
 != | field(:code) != other
 &gt; | field(:code) > other
 < | field(:code) < other
@@ -358,4 +358,4 @@ api.post(url, body) # => {"ids" => ["100","101"]}
 api.guest(1).record.get(8, 100)
 ```
 
-see also [kintone developers](http://developers.kintone.com/)
+see also [kintone developers](https://developer.kintone.io/hc/en-us)
